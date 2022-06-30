@@ -57,7 +57,7 @@ const Posts = ({id,post,postIsPage}) => {
                             <h4 className={`font-bold text-[15px] sm:text-base text-[#d9d9d9] group-hover:underline ${!postIsPage && 'inline-block'}`}>{post?.username}</h4>
                             <span className={`text-sm sm:text-[15px] ${!postIsPage &&'ml-1.5'}`}>@{post?.tag}</span>
                         </div>
-                        {""}.{""}
+                        {/* {""}.{""} */}
                         
                         <span className='hover:text-[#1d9bf0] text-sm sm:text-[15px] ml-5 border border-gray-700 rounded-md p-0.5 hover:border-[#1d9bf0]'>
                                 <Moment fromNow>{post?.timestamp?.toDate()}</Moment>
