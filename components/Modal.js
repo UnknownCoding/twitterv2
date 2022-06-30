@@ -61,7 +61,7 @@ const Modal = () => {
                                             <div className='group'>
                                                 <h4 className='font-bold text-[15px] sm:text-base text-[#d9d9d9] inline'>{post?.username}</h4>
                                                 <span className='ml-1.5 text-sm  sm:text-[15px]'>@{post?.tag}</span>
-                                                {/* {""}.{""} */}
+                                                {""}.{""}
                                                 <span className='hover:text-[#1d9bf0] transition-all duration-200 ease-in text-sm sm:text-[15px] ml-5 border border-gray-700 rounded-md p-0.5 hover:border-[#1d9bf0]'>
                                                     <Moment fromNow>{post?.timestamp?.toDate()}</Moment>
                                                 </span>
