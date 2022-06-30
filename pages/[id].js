@@ -41,7 +41,7 @@ const PostPage = ({trendingResults,followResults,providers}) => {
         <div >
         <Head>
             <title>
-                {posts?.username} on Twitter : "{posts?.text}"
+                {posts?.username} on Twitter : {posts?.text}
             </title>
         </Head>
         {/* max width and then margin auto is needed !  */}
